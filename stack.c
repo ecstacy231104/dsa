@@ -39,3 +39,15 @@ int pop()
       
       pop(10);
   }
+//   git add .
+//  git commit -m "stack code added"
+// git push
+
+
+// to run c program
+// 1. gcc -o main stack.c
+// 2. ./main
+
+// to run c++ programss
+// 1. g++ -o main stack.cpp
+// 2. ./main
