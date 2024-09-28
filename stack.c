@@ -51,6 +51,27 @@ void peek()
 
 
 }
+void isfull()
+{
+    if(top==MAX-1)
+    {
+        printf("stack is full");
+    }
+    else{
+        printf("stack is not full");
+    }
+}
+void isempty()
+{
+    if(top==-1)
+    {
+        printf("\n stack is empty \n");
+    }
+    else 
+    {
+        printf("\n not empty \n");
+    }
+}
   int main(void)
   {
       push(10);
@@ -62,6 +83,22 @@ void peek()
      peek();
       pop(); 
       peek();
+       push(10);
+      push(20);
+       push(10);
+      push(20);
+      push(20);
+
+      isfull();
+      isempty();
+      pop();
+      pop();
+      pop();
+      pop();
+      pop();
+      isempty();
+      isfull();
+
 
   }
 //   git commands
