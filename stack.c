@@ -3,7 +3,12 @@
 #define MAX 5
 int stack[MAX];
 int top = -1;
-
+// 1. push
+// 2. pop
+// 3. isEmpty
+// 4. isFull
+// 5. display
+// 6. peek : to view the top element without removing
 
 void push(int element){
 
@@ -32,12 +37,32 @@ int pop()
         
     }
 }
+
+void peek()
+{
+    // display the top element
+    if(top==-1)
+    {
+        printf("\nstack underflow,there is no element in the stack\n");
+    }else{
+    printf( "\n%d is on the top of the stack.\n",stack[top]);
+
+    }
+
+
+}
   int main(void)
   {
       push(10);
       push(20);
+      peek();
       
-      pop(10);
+      pop(); 
+
+     peek();
+      pop(); 
+      peek();
+
   }
 //   git add .
 //  git commit -m "stack code added"
