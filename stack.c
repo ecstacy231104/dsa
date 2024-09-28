@@ -64,6 +64,7 @@ void peek()
       peek();
 
   }
+//   git commands
 //   git add .
 //  git commit -m "stack code added"
 // git push
