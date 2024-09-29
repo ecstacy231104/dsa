@@ -51,6 +51,23 @@ void peek()
 
 
 }
+void display()
+{
+    if(top==-1)
+    {
+        printf("stack is empty");
+    }
+    else{
+        for(int i=0;i<=top;i++)
+    {
+    printf("\ndisplaying element  %d the stack %d \n",i+1,stack[i]);
+        
+    }
+
+    }
+    
+
+}
 void isfull()
 {
     if(top==MAX-1)
